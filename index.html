@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Holy Ghost Triumphant Ministries</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="media/logo.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background: #f7f6f4;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+    .logo {
+      width: 200px;
+      margin-bottom: 40px;
+    }
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .nav-link {
+      display: inline-block;
+      padding: 16px 32px;
+      background: linear-gradient(135deg, #2356a8, #d4a017);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: transform 0.2s;
+    }
+    .nav-link:hover {
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <img src="media/logo.png" alt="Holy Ghost Triumphant Ministries Logo" class="logo" />
+  <h1>Holy Ghost Triumphant Ministries</h1>
+  <p>Welcome to our church management system.</p>
+  <nav class="nav-links">
+    <a href="administrator/" class="nav-link">Administrator Panel</a>
+    <a href="pastor/" class="nav-link">Pastor's Attendance View</a>
+    <a href="developer/" class="nav-link">Developer Tools</a>
+  </nav>
+</body>
+</html>

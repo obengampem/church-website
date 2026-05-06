@@ -1,0 +1,64 @@
+/* Shared styles for Holy Ghost Triumphant Ministries */
+
+/* Reset and base styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'EB Garamond', serif;
+  line-height: 1.6;
+  color: #1f2733;
+}
+
+/* Header ribbon */
+.header-ribbon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: linear-gradient(90deg, #2356a8, #d4a017);
+}
+
+/* Utility classes */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Focus styles */
+button:focus,
+input:focus,
+textarea:focus {
+  outline: 2px solid #2356a8;
+  outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+  .theme-switcher,
+  .admin-link {
+    display: none !important;
+  }
+}
